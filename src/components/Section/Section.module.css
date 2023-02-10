@@ -1,6 +1,12 @@
 .title {
     font-size: 48px;
+    font-weight: 500;
     margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.title-small {
+  font-size: 40px;
 }
 
 .container {

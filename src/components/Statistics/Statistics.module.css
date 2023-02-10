@@ -6,43 +6,53 @@
 }
 
 .good_txt {
-  color: #058c0a;
+  color: #3eb743;
+  font-size: 32px;
 }
 
 .good {
-  padding: 10px;
+  padding: 8px 16px;
   border: 1px solid #058c0a;
 }
 
 .neutral_txt {
-  color: #E7B403;
+  font-size: 24px;
+  color: #e7b403;
 }
 
 .neutral {
-  padding: 10px;
-  border: 1px solid #E7B403;
+  padding: 8px 16px;
+  border: 1px solid #e7b403;
 }
 
 .bad_txt {
-  color: #E73535;
+  font-size: 24px;
+  color: #e73535;
 }
 
 .bad {
-  padding: 10px;
-  border: 1px solid #E73535;
+  padding: 8px 16px;
+  border: 1px solid #e73535;
 }
 
 .total_txt {
+  font-size: 24px;
   color: #ffffff;
 }
 
 .total {
-  padding: 10px;
+  padding: 8px 16px;
   border: 1px solid #ffffff;
 }
 
 .positive_txt {
-  color: #058c0a;
+  color: #3eb743;
+  font-size: 32px;
+}
+
+.positive {
+  color: #ffffff;
+  font-size: 32px;
 }
 
 .item {
@@ -62,10 +72,18 @@
   font-size: 20px;
   font-weight: 700;
   position: relative;
+
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover {
+  transform: scale(1.2);
 }
 
 .item:last-child {
-  width: 300px;
+  width: 450px;
   margin-top: 20px;
 }
 

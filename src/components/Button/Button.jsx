@@ -25,7 +25,7 @@ export class Button extends Component {
 }
 
 Button.propTypes = {
-  onLeaveFeedback: PropTypes.func.isRequired,
+  onLeaveFeedback: PropTypes.func,
   options: PropTypes.arrayOf(PropTypes.oneOf(['good', 'neutral', 'bad'])),
 };
 
