@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-02-feedback-1",
+  "name": "goit-react-hw-04-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://HannaTubolets.github.io/goit-react-hw-02-feedback-1/",
+  "homepage": "https://HannaTubolets.github.io/goit-react-hw-04-feedback/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
